@@ -1,0 +1,95 @@
+/* Navigation menu style
+ - horizontal
+ - drop down for more links
+*/
+
+#navigation
+{
+	background: black;  /* Sets background of the menu */
+	font-size: 28px;   /* Sets font size of the menu headings */
+	
+	/* Everything below this point is positional formatting */
+	padding: 0;
+	margin: 0;
+	clear: left;
+	float:left;
+	left: 50%;
+	position:relative;
+	text-align:center;
+	padding: 0;
+	list-style: none;
+}
+		
+#navigation > li
+{
+	/*border: 1px solid #333;*/  /* Puts a border around the main headers of the menu  */
+		
+    /* Everything below this point is positional formatting */
+    list-style:none;
+    margin:0;
+    padding:0;
+    position:relative;
+    right:50%;
+    display:block;
+    float:left;
+}
+
+#navigation > li > a
+{
+	color: white;
+	font-weight: bold;
+}
+
+#navigation > li:hover > a
+{
+	background: #222;
+}
+
+#navigation li a
+{
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1em;
+	text-decoration: none;
+}
+			
+#navigation ul
+{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	display: none;
+	z-index: 999;
+	background: #222;
+	border-style: solid;
+	border-color: #222;
+	border-top-width: 0px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	color:white;
+}
+
+#navigation ul li a
+{
+	width: auto;
+	color: white;
+}
+
+#navigation li ul li a
+{
+	font-size: 16pt;
+	text-align:left;
+}
+
+#navigation li:hover ul
+{	
+	display: block;
+}
+
+#navigation ul li:hover a
+{
+	background: #111;
+}
+

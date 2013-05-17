@@ -1,0 +1,80 @@
+ <!doctype html>
+
+<html>
+        <head>
+                <meta charset="UTF-8">
+                <title>Post A Jobs</title>
+                <link rel ="stylesheet" href="global.css">
+                <link rel ="stylesheet" href="navigationMenu.css">
+        </head>
+        <body>
+                <div id="header">
+                        <img src="banner.png" alt="WhiteBoard" class="banner"/>
+                        <ul id="navigation">
+                                        <li><a href="home.html"><img src="homeIcon.png"></a></li>
+                                        <li><a href="#">JOB POSTERS</a>
+                                                <ul>
+                                                        <li><a href="postAJob.html">Post Job</a></li>
+                                                        <li><a href="#">Check Active Jobs</a></li>
+                                                        <li><a href="#">Remove Job</a></li>
+                                                        <li><a href="#">Sign In</a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a href="#">JOB SEEKERS</a>
+                                                <ul>
+                                                        <li><a href="#">Search For A Job</a></li>
+                                                        <li><a href="#">Build A Resume</a></li>
+                                                        <li><a href="#">Build A Cover Letter</a></li>
+                                                        <li><a href="seekerSignup.html">Sign In</a></li>
+                                                </ul>
+                                        </li>
+                                </ul>
+
+                </div>
+
+                <div id="contentContainer">
+                                <br>
+                                Enter the information below to post a job.<br><br><br>
+                                First Name: <br>
+                                <input type="text" name="firstName">
+                                <br>
+                                Last Name: <br>
+                                <input type="text" name="lastName">
+                                <br>
+                                Company Name: <br>
+                                <input type="text" name="companyName">
+                                <br>
+                                Location: <select name="state">
+                                                <option value='1'>Connecticut</option>
+                                                <option value='2'>Maine</option>
+                                                <option value='3'>Massachusetts</option>
+                                                <option value='4'>New Hampshire</option>
+                                                <option value='5'>New York</option>
+                                                <option value='6'>Rhode Island</option>
+                                                <option value='7'>Vermont</option>
+                                                <option value='8'>Other</option>
+                                        </select>
+                                <br>
+                                Work Remotely: <select name='remoteWorking'>
+                                                        <option value='1'>Yes</option>
+                                                        <option value='2'>No</option>
+                                                        <option value='3'>Maybe</option>
+                                                </select>
+                                <br>
+                                <br>
+                                Responsibilities<br>
+                                <textarea name="responsibilities" rows="10" col="75"></textarea>
+                                <br>
+                                Desired Skills<br>
+                                <textarea name="skills" rows="10" col="75"></textarea>
+                                <br>
+                                Compensation<br>
+                                <textarea name="compensation" rows="10" col="75"></textarea>
+                                <br>
+                                Extra<br>
+                                <textarea name="extra" rows="10" col="75"></textarea>
+                                <br>
+                                <input type="submit" name="submit" value="Submit">
+                </div>  
+        </body>
+</html>

@@ -1,0 +1,109 @@
+body
+{
+	background:black;
+	color: white;
+}
+
+#header
+{
+	width: 100%;
+    margin: 10px auto 50px auto;
+}
+
+#contentContainer
+{
+	width: 100%;
+	margin: 10px auto 10px auto;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#leftContent
+{
+	width: 40%;
+	float: left;
+	margin: 5px;
+}
+
+#rightContent
+{
+	width: 40%;
+	float: right;
+	margin: 5px;
+}
+
+#mainLink
+{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 28pt;
+}
+
+textarea
+{
+	min-width: 40%;
+	max-width: 40%;
+	max-height: 75px;
+	background: black;
+	color: white;
+	border: 2px solid #333;
+	font-size: 12pt;
+	margin-bottom: 5px;
+}
+
+img.banner
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+select
+{
+	background: black;
+	color: white;
+	border: 2px solid #333;
+	font-size: 14pt;
+	margin-bottom: 5px;
+}
+
+input
+{
+	background: black;
+	color: white;
+	border: 2px solid #333; 
+	margin-bottom: 5px;
+}
+
+input[type=submit]
+{
+	color: white;
+ 	width: 135px;
+ 	height: 40px;
+ 	border: 2px solid #222;
+ 	margin: 0;
+ 	padding: 0;
+ 	background: #000; 
+}
+
+input[type=submit]:hover
+{
+	background: #333; 
+}
+
+input[type=submit]:active
+{
+	border: 2px solid #000; 
+	font-size: 12pt;
+}
+
+h1
+{
+	text-align: center;
+	font-size: 14pt;
+}
