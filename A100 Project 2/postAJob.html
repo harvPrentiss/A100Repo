@@ -33,16 +33,24 @@
                 </div>
 
                 <div id="contentContainer">
+                        <form action="insert.php" method="post">
                                 <br>
-                                Enter the information below to post a job.<br><br><br>
-                                First Name: <br>
+                                Please fill out and submit the form below to post your job on our board.<br><br><br>
+                                First Name (Optional): <br>
                                 <input type="text" name="firstName">
                                 <br>
-                                Last Name: <br>
+                                Last Name (Optional): <br>
                                 <input type="text" name="lastName">
                                 <br>
                                 Company Name: <br>
                                 <input type="text" name="companyName">
+                                <br>
+                                Email Address: <br>
+                                <input type="text" name="emailAddress">
+                                <br>
+                                Position Title: <br>
+                                <input type="text" name="positionTitle">
+                                <br>
                                 <br>
                                 Location: <select name="state">
                                                 <option value='1'>Connecticut</option>
@@ -74,7 +82,9 @@
                                 Extra<br>
                                 <textarea name="extra" rows="10" col="75"></textarea>
                                 <br>
+                                <input type="reset" name="reset" value="Reset Form">
                                 <input type="submit" name="submit" value="Submit">
+                        </form>
                 </div>  
         </body>
 </html>
