@@ -46,7 +46,8 @@ textarea
 {
 	min-width: 40%;
 	max-width: 40%;
-	max-height: 75px;
+	min-height: 75px;
+	max-height: 100px;
 	background: black;
 	color: white;
 	border: 2px solid #333;
