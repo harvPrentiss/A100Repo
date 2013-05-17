@@ -103,6 +103,28 @@ input[type=submit]:active
 	font-size: 12pt;
 }
 
+input[type=reset]
+{
+	color: white;
+ 	width: 135px;
+ 	height: 40px;
+ 	border: 2px solid #222;
+ 	margin: 0;
+ 	padding: 0;
+ 	background: #000; 
+}
+
+input[type=reset]:hover
+{
+	background: #333; 
+}
+
+input[type=reset]:active
+{
+	border: 2px solid #000; 
+	font-size: 12pt;
+}
+
 h1
 {
 	text-align: center;
